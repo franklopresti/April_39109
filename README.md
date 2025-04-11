@@ -2,9 +2,6 @@
 ICPSR 39109 City Tutors Seminar
 ## r code used to 
 # create strict 
-
-df$strict <- 0
-
 #logical vectors give you true = 1 and false = 0 when we add them....
 aaa <-(df$C1_SCHOOL %in% c(1,2,3)) +
 (df$C2_WORKPLACE %in% c(1,2,3))+
